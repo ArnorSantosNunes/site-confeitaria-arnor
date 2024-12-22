@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.navbar{
+    background-color:bisque;
+}
+#cabecalho nav .nav .nav-link.active{
+    background-color: sienna;
+    color: bisque;
+}
+#cabecalho nav .nav .nav-link, .navbar-brand{
+    color: sienna;
+}
+.navbar-toggler{
+    background-color: sienna;
+    color: bisque;
+}
+.navbar-toggler-icon .bi{
+color: bisque; 
+font-size: 30px;
+text-align: center;
+
+}
+.section-title span{
+    color:  sienna;
+}
+.nav-cardapio .nav-link.active{
+    background-color: sienna;
+}
+/* formulario */
+.form-campo {
+    margin-bottom: 20px;
+}
+
+.form-campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button {
+    background-color:  sienna;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.error {
+    color: red
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    color: #ffc107;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer .bi {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+footer .text-center {
+    margin-top: 20px;
+}
+
+/* Estilo para ícones das redes sociais */
+footer .bi-facebook,
+footer .bi-instagram,
+footer .bi-twitter,
+footer .bi-linkedin {
+    font-size: 1.5rem;
+}
+
+footer .bi-envelope,
+footer .bi-telephone,
+footer .bi-geo-alt {
+    font-size: 1.2rem;
+}
+@media (max-width: 280px ) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
